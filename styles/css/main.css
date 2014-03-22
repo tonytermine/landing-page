@@ -131,9 +131,14 @@
 		   	color: #fff;
 		   }
 
+		   .project-c > p {
+		   	padding-bottom: 20px;
+		   }
+
 		/* --------------------------------------
 		   Form
 		   -------------------------------------- */
+
 		   .hire-us h3 {
 		   	font-size: 1.5em;
 		   	text-align: center;
@@ -333,6 +338,9 @@
 				top: 65px;
 			}
 
+			.project-c > p {
+				padding-bottom: 0;
+			}
 
 			form p {
 				width: 90.5%;
@@ -435,6 +443,10 @@
 				max-width: 300px;
 				width: 100%;
 				color: #fff;
+			}
+
+			.project-c > p {
+				padding-bottom: 0;
 			}
 
 			.hire-us p {

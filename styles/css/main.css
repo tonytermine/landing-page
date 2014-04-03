@@ -29,8 +29,7 @@
 		   	margin: 37px 15px 0 0;
 		   	text-decoration: none;
 		   	color: #fff;
-		   	padding-left: 5px;
-		   	padding-right: 5px;
+		   	padding: 0 5px 0 5px;
 		   }
 
 		   h2 {
@@ -47,15 +46,14 @@
 		   	float: right;
 		   	border: 1px solid #fff;
 		   	border-radius: 5px;
-		   	margin: 37px 15px 0 0;
 		   	color: #fff;
-				padding: 5px;
+		   	padding: 4px;
 			 }
 
 			 .nav-container .nav, .nav-container:active .nav {
 			 	display: none;
 			 	position: absolute;
-			 	background: #3700B9;
+			 	background: #2401B1;
 			 	border: 2px solid #2A2AAB;
 			 	padding: 5px;
 			 	right: 2px;
@@ -131,9 +129,14 @@
 		   	color: #fff;
 		   }
 
+		   .project-c > p {
+		   	padding-bottom: 20px;
+		   }
+
 		/* --------------------------------------
 		   Form
 		   -------------------------------------- */
+
 		   .hire-us h3 {
 		   	font-size: 1.5em;
 		   	text-align: center;
@@ -333,6 +336,9 @@
 				top: 65px;
 			}
 
+			.project-c > p {
+				padding-bottom: 0;
+			}
 
 			form p {
 				width: 90.5%;
@@ -435,6 +441,18 @@
 				max-width: 300px;
 				width: 100%;
 				color: #fff;
+			}
+
+			.project-c > p {
+				padding-bottom: 0;
+			}
+
+			.hire-us {
+				padding-left: 10px;
+			}
+
+			#form-box {
+				margin-left: 5px;
 			}
 
 			.hire-us p {
